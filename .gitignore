@@ -28,4 +28,4 @@ ckpts*
 .ipynb_checkpoints
 *.ipynb
 *.txt
-run_exp/
+run_exp/exp_results
