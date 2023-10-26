@@ -49,10 +49,10 @@ else:
     output_dir = pre_setup()
 
 # ! specify the model size
-model_size = "7b"
+model_size = "13b"
 
 # ! specify the evaluation split
-eval_split = "test"  # [minitest, test, minitest_first_40, scienceqa_chameleon_gpt4_test_failure_cases]
+eval_split = "minitest"  # [minitest, test, minitest_first_40, scienceqa_chameleon_gpt4_test_failure_cases]
 
 model_vqa_llavabench = [
     "python", "-m", "llava.eval.model_vqa",
