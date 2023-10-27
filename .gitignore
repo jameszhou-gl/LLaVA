@@ -29,3 +29,4 @@ ckpts*
 # *.ipynb
 *.txt
 run_exp/exp_results
+playground/data/eval
